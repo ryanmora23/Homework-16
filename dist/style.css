@@ -1,0 +1,41 @@
+* {
+    -webkit-transition: 1s ease;
+            transition: 1s ease;
+}
+*:hover{
+	color:white;
+}
+body {
+    background-color: black;
+}
+h1 {
+    color: lightblue;
+    font-family: fantasy;
+    font-size: 40px;
+}
+h2 {
+color: aqua;
+font-family: script;
+font-size: 25px;
+}
+.container {
+	border: solid white 2px;
+    height: 100%;
+    width: 100%;
+}
+.link {
+    color: lime;
+}
+.link:hover {
+    color: red;
+    font-size: 30px;
+}
+.link:active {
+    color: purple;
+}
+.email {
+    color: white;
+}
+.email:hover {
+    color: orange;
+}
